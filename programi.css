@@ -1,0 +1,140 @@
+body{
+
+  background-color: hsl(217,54%,11%);
+ display: flex;
+ flex-direction: column;
+}
+main{
+
+width: 250px;
+height: 430px;
+margin-left: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+margin-top: 250px;
+background-color: hsl(216, 50%, 16%);
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+main img{
+  background-color: transparent;
+  margin-top: 20px;
+  width: 220px;
+  height: auto;
+  transition: filter 0.3s ease-in-out;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+
+main img:hover{
+  background-color: #51bdb6;
+  opacity: 0.5;
+  cursor: pointer;
+  
+  
+}
+.empty{
+
+  width: 220px;
+  position: absolute;
+  height: 218px;
+  margin-top: 21px;
+  border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+align-items: center;
+align-content: center;
+display: flex;
+flex-direction: column;
+
+}
+.empty i{
+  display: block;
+  width: 40%;
+  padding-top: 101px;
+  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+ width: 120px;
+  align-items: center;
+  align-content: center;
+
+  height: 300px;
+}
+.empty i:hover{
+  opacity: 1;
+}
+.empty:hover{
+  background-color: #51bdb6;
+  opacity: 0.3;
+}
+main h2 {
+  color: white;
+  font-size:16px;
+  text-align: start;
+  margin-right: 85px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  cursor: pointer;
+}
+main p{
+  margin-left: 13px;
+  font-size: 13px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -2px;
+}
+.eth{
+  align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+  width: 220px;
+  display: flex;
+  gap: 5px;
+  height: 20px;
+  font-size: 12px;
+}
+h5{
+  font-size: 12px;
+  color: gray;
+}
+hr{
+  width: 210px;
+ border-color: gray;
+}
+.profil{
+ 
+  align-items: center;
+ display:flex;width: 200px;
+ margin-right: 20px;
+}
+.profil img{
+  width: 35px;
+  margin-top: 0px;
+}
+.profil p{
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 2px;
+  font-size: 11px;
+  color: gray;
+}
+.profil .p1{
+  color: white;
+}
+main h2:hover{
+  color: #51bdb6;
+  cursor: pointer;
+}
+.profil .p1:hover{
+  color: #51bdb6;
+  cursor: pointer;
+}
